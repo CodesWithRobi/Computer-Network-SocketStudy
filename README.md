@@ -37,11 +37,13 @@ To perform a study on Socket Programming
 •	They then listen for incoming connections with listen() and accept connections with accept().
 •	Once a connection is establi
 •	shed, servers can send and receive data using send() and recv().
+[server](server.py)
 
 ## Client –Server Operations
 
 Clients create a socket using socket() and connect to a server using connect().
 After establishing a connection, clients can send and receive data using send() and recv().
+[client](client.py)
 
 ## Use Cases of Socket Programming:
 Socket programming finds applications in various domains, including web development, file transfer protocols, online gaming, and real-time communication. It is the foundation for protocols like HTTP, FTP, and SMTP, which power the internet. Socket programming enables the development of both server and client applications, facilitating the exchange of information between devices in a networked environment.
